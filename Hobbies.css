@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(69, 154, 228);
+    margin: 0;
+}
+main {
+    margin-bottom: 100px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(6, 6, 8, 0.753);
+}
+.header-container h1 {
+    margin: 10px;
+    margin-left: 20px;
+    color: aliceblue;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-right: 20px;
+}
+.nav-bar a {
+    margin: 10px;
+    color: aliceblue;
+}
+.section-container {
+    margin-top: 50px;
+    margin: 20px;
+}
+.section-container p {
+    color: aliceblue;
+    font-size: 15px;
+}
+#footer {
+    display: flex;
+    background-color: rgb(19, 49, 110);
+    color: aliceblue;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
