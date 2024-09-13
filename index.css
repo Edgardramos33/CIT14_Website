@@ -22,6 +22,7 @@ body {
     color: aliceblue;
     margin: 10px;
     font-size: 20px;
+    text-decoration: none;
 }
 .section-box {
     background-color: rgb(35, 102, 170);
