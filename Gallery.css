@@ -1,6 +1,7 @@
 body {
-    background-color: rgb(58, 127, 231);
+    background-image: url("https://images.unsplash.com/photo-1507643179773-3e975d7ac515?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJ0JTIwZ2FsbGVyeXxlbnwwfHwwfHx8MA%3D%3D");
     margin: 0;
+    background-size: cover;
 }
 .header {
     display: flex;
@@ -15,11 +16,13 @@ body {
 .nav {
     display: flex;
     align-items: center;
+    margin-right: 20px;
 }
 .nav a {
     color: aliceblue;
     margin: 10px;
     font-size: 20px;
+    text-decoration: none;
 }
 .images {
     display: flex;
@@ -28,7 +31,7 @@ body {
 }
 .images img {
     height: 150px;
-    width: auto;
+    border-radius: 10px;
 }
 .images p {
     text-align: center;
@@ -37,9 +40,14 @@ body {
 }
 #footer {
     display: flex;
-    justify-content: center;
-    background-color: rgb(8, 22, 61);
-    color: aliceblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(24, 32, 109);
+    color: white;
+    text-align: center;
     height: 30px;
+    justify-content: center;
     align-items: center;
 }
