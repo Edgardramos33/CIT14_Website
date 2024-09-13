@@ -1,13 +1,13 @@
 body {
     margin: 0;
-    background-image: linear-gradient(to bottom, rgb(1, 1, 99),rgb(32, 9, 134),rgb(103, 20, 124));
+    background-image: url("https://t3.ftcdn.net/jpg/03/02/04/06/360_F_302040655_IEH9RyDlu7LL8YCLjgL1IskhrpOlmlSv.jpg");
     background-size: cover;
-    mask-size: ;
+    margin: 0;
 }
 .header-box {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(6, 6, 8, 0.753);
+    background-color: #060608c0;
     height: 80px;
     align-items: center;
 }
@@ -51,12 +51,15 @@ body {
     border-radius: 50%;
 }
 #footer {
-    display:flex;
+    display: flex;
+    position: fixed;
+    left: 0;
     bottom: 0;
+    width: 100%;
+    background-color: rgb(11, 12, 24);
+    color: white;
+    text-align: center;
+    height: 45px;
     justify-content: center;
-    color: aliceblue;
-    font-size: 20px;
-    background-color: rgb(5, 15, 37);
-    height: 30px;
     align-items: center;
 }
