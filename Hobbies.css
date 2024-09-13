@@ -1,10 +1,11 @@
 body {
-    background-color: rgb(69, 154, 228);
+    background-image: url("https://i.pinimg.com/originals/72/a1/84/72a184aa7846cad0d5a82cf55dc3f406.jpg");
     margin: 0;
 }
 main {
     margin-bottom: 100px;
 }
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -13,7 +14,7 @@ main {
 .header-container h1 {
     margin: 10px;
     margin-left: 20px;
-    color: aliceblue;
+    color: white;
 }
 .nav-bar {
     display: flex;
@@ -23,21 +24,29 @@ main {
 }
 .nav-bar a {
     margin: 10px;
-    color: aliceblue;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
 }
 .section-container {
     margin-top: 50px;
     margin: 20px;
+    background-color: rgba(0, 0, 0, 0.548);
+    border: solid black;
+    border-radius: 10px;
 }
 .section-container p {
-    color: aliceblue;
-    font-size: 15px;
+    font-size: 25px;
+    margin-left: 30px;
+    color: #ffffff;
 }
 #footer {
-    display: flex;
-    background-color: rgb(19, 49, 110);
-    color: aliceblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(24, 32, 109);
+    color: white;
+    text-align: center;
     height: 30px;
-    justify-content: center;
-    align-items: center;
 }
