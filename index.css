@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    background-color: rgb(49, 142, 223);
+    background-image: linear-gradient(to bottom, rgb(1, 1, 99),rgb(32, 9, 134),rgb(103, 20, 124));
+    background-size: cover;
+    mask-size: ;
 }
 .header-box {
     display: flex;
@@ -25,7 +27,7 @@ body {
     text-decoration: none;
 }
 .section-box {
-    background-color: rgb(35, 102, 170);
+    margin-top: 10px;
     height: 200px;
 }
 .section-box h2 {
@@ -43,9 +45,10 @@ body {
     justify-content: center;
 }
 .user-profile img {
-    height: 50%;
+    height: 400px;
     width: auto;
     margin: 20px;
+    border-radius: 50%;
 }
 #footer {
     display:flex;
